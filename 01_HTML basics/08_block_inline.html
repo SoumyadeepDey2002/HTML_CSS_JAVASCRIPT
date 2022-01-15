@@ -1,0 +1,25 @@
+<!-- Block - spans across the entire page hence knocks the next component down -->
+<!-- Inline - doen't span across the entire page hence the next element is just beside it -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p style="border: 2px green solid;">Lorem ipsum dolor sit amet <strong style="border: 2px red solid;">consectetur adipisicing</strong> elit. Molestias porro officiis deserunt voluptatem repellendus ex mollitia, iure nemo, totam saepe a quam, repellat unde nostrum explicabo odit consequatur obcaecati. Est.</p>
+  <!-- since p is block it will push the second para below -->
+  <p style="border: 2px green solid;">Lorem ipsum .</p>
+
+  <a href="#" style="border: 2px red solid;">A link</a>
+  <a href="#" style="border: 2px red solid;">Another link</a>
+
+  <ul style="border: 2px green solid;">
+    <li style="border: 2px green solid;">Item</li>
+    <li>Item</li>
+  </ul>
+</body>
+</html>

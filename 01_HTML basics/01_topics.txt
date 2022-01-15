@@ -1,0 +1,14 @@
+HTML Topics 
+------------
+
+* Tags & Attributes
+* Page Structure
+* Meta Tags
+* Keyboard Shortcuts
+* Form & Input 
+* Links & Images
+* Tables & Lists
+* Block vs Inline
+* Div,Span, ID, Class
+* HTML Entities
+* HTML5 Semantic Tags 
